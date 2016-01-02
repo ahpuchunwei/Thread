@@ -1,4 +1,4 @@
-package com.alibaba.thread;
+package com.jxnu.app;
 
 /**
  * 生产者类

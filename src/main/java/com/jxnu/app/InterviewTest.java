@@ -1,4 +1,4 @@
-package com.alibaba.thread;
+package com.jxnu.app;
 
 public class InterviewTest {
 	final Businese b = new Businese();

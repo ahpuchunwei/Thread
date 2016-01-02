@@ -1,4 +1,4 @@
-package com.alibaba.thread;
+package com.jxnu.app;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;

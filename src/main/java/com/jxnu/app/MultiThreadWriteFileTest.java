@@ -1,4 +1,4 @@
-package com.alibaba.thread;
+package com.jxnu.app;
 
 import java.io.BufferedWriter;
 import java.io.File;

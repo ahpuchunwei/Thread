@@ -1,4 +1,4 @@
-package com.alibaba.thread;
+package com.jxnu.app;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
@@ -23,7 +23,6 @@ public class ConditionTest {
 		for (int i = 0; i < 50; i++) {
 			// 子线程1
 			new Thread(new Runnable() {
-				@Override
 				public void run() {
 					lock.lock();
 					try {
@@ -46,7 +45,6 @@ public class ConditionTest {
 
 			// 子线程2
 			new Thread(new Runnable() {
-				@Override
 				public void run() {
 					lock.lock();
 					try {
@@ -69,7 +67,6 @@ public class ConditionTest {
 
 			// 主线程
 			new Thread(new Runnable() {
-				@Override
 				public void run() {
 					lock.lock();
 					try {
